@@ -1,0 +1,67 @@
+.container {
+  margin: 0 auto;
+  width: 1100px;
+  text-align: center;
+  
+}
+.news__title {
+  font-family: Roboto;
+  font-size: 49px;
+  line-height: 38px;
+  font-weight: bold;
+  color: #262424;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.news__list{
+  list-style: none;
+}
+
+.news__avatar {
+  width: 160px;
+  height: 160px;
+  margin-right: 20px;
+  margin-bottom: 62px;
+}
+
+
+.news__item {
+  text-align: left;
+}
+
+.news__desc{
+  display: inline-block;
+  width: 650px;
+  height: 170px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.news__date{
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #656464;
+}
+
+.news__subtitle{
+  font-size: 18px;
+  font-weight: 700;
+  color: #262424;
+}
+
+
+.news__text{
+  font-size: 18px;
+  line-height: 30px;
+  color: #262424;
+}
+
+
+/* пагинация */
+
+
+
+

@@ -1,0 +1,60 @@
+.rates__title{
+  font-family: Roboto;
+  font-size: 49px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #262424;
+  text-align: left;
+}
+
+.rates__list{
+  text-align: left;
+}
+
+.rates__item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 250px;
+  height: 456px;
+  padding: 15px;
+}
+
+.rates__list-title{
+  font-family: Roboto;
+  font-size: 10.8px;
+  line-height: 51px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  color: #262626;
+}
+
+.rates__list-subtitle{
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #262424;
+}
+
+.rates__price{
+  font-family: Roboto;
+  font-size: 53.9px;
+  line-height: 90px;
+  letter-spacing: -0.06em;
+  color: #262626;
+  margin: 0;
+  padding: 0;
+}
+
+.rates__text{
+  list-style-type:disc;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #262424;
+  margin-left: 14px;
+}

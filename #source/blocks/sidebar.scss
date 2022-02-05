@@ -1,0 +1,64 @@
+.nav__link:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 23px;
+  height: 18px;
+  margin-right: 17px;
+  background: center center / contain no-repeat;
+}
+
+.nav__link{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5972b1;
+  letter-spacing: 2.4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link:hover{
+  color: black;
+}
+
+.nav__item--active .nav__link{
+  color: black;
+}
+
+
+
+
+.nav__link--icon--arrow:before {
+  background-image: url('/My_proje/HomeWork/AirPlanet/img/icons/arrow.png');
+  // background-color: lawngreen;
+}
+.nav__link--icon--star:before {
+  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/star.png");
+}
+.nav__link--icon--cap:before {
+  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/cap.png");
+}
+
+.nav__link--icon--arrow:hover:before {
+  background-image: url('/My_proje/HomeWork/AirPlanet/img/icons/arrow.png');
+  // background-color: lawngreen;
+}
+.nav__link--icon--star:hover:before {
+  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+}
+.nav__link--icon--cap:hover:before {
+  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+}
+
+
+.nav__item--active .nav__link--icon--arrow:before {
+  background-image: url('/My_proje/HomeWork/AirPlanet/img/icons/arrow.png');
+  // background-color: lawngreen;
+}
+.nav__item--active .nav__link--icon--star:before {
+  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+}
+.nav__item--active .nav__link--icon--cap:before {
+  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+}
