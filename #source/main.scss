@@ -1,3 +1,4 @@
+@import "./normalize";
 @import "./blocks/header";
 @import "./blocks/layout";
 @import "./blocks/main_content";
@@ -6,8 +7,8 @@
 @import "./blocks/news";
 @import "./blocks/pagination";
 @import "./blocks/rates";
-
 @import "./blocks/footer.scss";
 @import "./blocks/breadcrumbs";
+@import "./blocks/crew.scss";
 
 

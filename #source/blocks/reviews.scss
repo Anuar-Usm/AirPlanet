@@ -1,11 +1,12 @@
-.title{
-  font-family: Roboto;
-  font-size: 49px;
-  line-height: 38px;
-  font-weight: 700;
-  color: #262424;
+.reviews{
+  height: 350px;
+  width: auto;
 }
-
+.reviews__list {
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+}
 .reviews__main{
   display: inline-block;
   width: 850px;
@@ -18,12 +19,13 @@
   margin: 5px 20px;
 }
 .reviews__item{
+  width: 265px;
   display: inline-block;
   margin: 15px 5px;
 }
 
 .reviews__desc{
-  display: block;
-  // vertical-align: top;
-  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
 }

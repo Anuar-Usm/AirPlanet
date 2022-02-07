@@ -1,21 +1,31 @@
-.reviews__main{
+.crew{
+  height: 350px;
+  width: auto;
+}
+.crew__list {
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+}
+.crew__main{
   display: inline-block;
   width: 850px;
   text-align: left;
 }
 
-.reviews__pic{
+.crew__pic{
   width: 160px;
   height: 160px;
   margin: 5px 20px;
 }
-.reviews__item{
+.crew__item{
+  width: 265px;
   display: inline-block;
   margin: 15px 5px;
 }
 
-.reviews__desc{
+.crew__desc{
   display: inline-block;
   vertical-align: top;
-  width: 600px;
+  width: auto;
 }
