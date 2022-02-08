@@ -4,8 +4,7 @@
 }
 .reviews__list {
   display: flex;
-  flex-wrap:wrap;
-  text-align: center;
+  flex-direction: column;
 }
 .reviews__main{
   display: inline-block;
@@ -19,8 +18,8 @@
   margin: 5px 20px;
 }
 .reviews__item{
-  width: 265px;
-  display: inline-block;
+  width: 800px;
+  display: flex;
   margin: 15px 5px;
 }
 

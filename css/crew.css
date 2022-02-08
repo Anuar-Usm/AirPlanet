@@ -792,9 +792,10 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .reviews__main {
@@ -810,8 +811,10 @@ table {
 }
 
 .reviews__item {
-  width: 265px;
-  display: inline-block;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 15px 5px;
 }
 
