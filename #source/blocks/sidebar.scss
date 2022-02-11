@@ -1,7 +1,15 @@
+.sidebar{
+  width: 30%;
+  margin: 30px 10px;
+}
+
+.nav__item{
+  margin: 18px;
+}
+
+
 .nav__link:before{
   content: "";
-  display: inline-block;
-  vertical-align: middle;
   width: 23px;
   height: 18px;
   margin-right: 17px;
@@ -16,6 +24,7 @@
   letter-spacing: 2.4px;
   text-decoration: none;
   text-transform: uppercase;
+  display: flex;
 }
 
 .nav__link:hover{
@@ -30,35 +39,35 @@
 
 
 .nav__link--icon--arrow:before {
-  background-image: url('/My_proje/HomeWork/AirPlanet/img/icons/arrow.png');
+  background-image: url('/img/icons/arrow.png');
   // background-color: lawngreen;
 }
 .nav__link--icon--star:before {
-  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/star.png");
+  background-image: url("/img/icons/star.png");
 }
 .nav__link--icon--cap:before {
-  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/cap.png");
+  background-image: url("/img/icons/cap.png");
 }
 
 .nav__link--icon--arrow:hover:before {
-  background-image: url('/My_proje/HomeWork/AirPlanet/img/icons/arrow.png');
+  background-image: url('/img/icons/arrow.png');
   // background-color: lawngreen;
 }
 .nav__link--icon--star:hover:before {
-  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+  background-image: url("/img/icons/star.png");
 }
 .nav__link--icon--cap:hover:before {
-  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+  background-image: url("/img/icons/cap.png");
 }
 
 
 .nav__item--active .nav__link--icon--arrow:before {
-  background-image: url('/My_proje/HomeWork/AirPlanet/img/icons/arrow.png');
+  background-image: url('/img/icons/arrow.png');
   // background-color: lawngreen;
 }
 .nav__item--active .nav__link--icon--star:before {
-  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+  background-image: url("/img/icons/star.png");
 }
 .nav__item--active .nav__link--icon--cap:before {
-  background-image: url("/My_proje/HomeWork/AirPlanet/img/icons/arrow.png");
+  background-image: url("/img/icons/cap.png");
 }

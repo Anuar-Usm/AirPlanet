@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Отзывы</title>
-  <link rel="stylesheet" href="./css/reviews.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
           </div>
       </header>
       <div class="page-content">
-        <div class="container page__container">
+        <div class="container page-content__container">
           <aside class="sidebar">
             <nav class="nav">
               <ul class="nav__lisr">
@@ -142,9 +142,52 @@
 
               </div>
             </div>
+            <section class="form-section">
+              <div class="form">
+                <h2 class="form__title">Появились вопросы?</h2>
+                <form action="" class="form__elem">
+                  <div class="form__row">
+                    <label class="form__block">
+                      <div class="form__block--title">Ваше имя</div>
+                      <input placeholder="Андрей" type="text" name="" class="form__input">
+                    </label>
+                    <label class="form__block">
+                      <div class="form__block--title">Ваше имя</div>
+                      <input placeholder="@email" type="text" name="" class="form__input">
+                    </label>
+                  </div>
+                  <div class="form__row">
+                    <label class="form__block">
+                      <div class="form__block--title">Текст</div>
+                      <textarea class="form__input form__input--textarea" name=""
+                        placeholder="Мне понравилось"></textarea>
+                    </label>
+                  </div>
+                  <div class="form__row form-bottomline">
+                    <div class="form__question">
+                      <div class="form__question-title">Отображать фото в отзыве?</div>
+                      <div class="form__question-options">
+                        <label class="option">
+                          <div class="option__radio"></div>
+                          <div class="option__title">Да</div>
+                        </label>
+                        <label class="option">
+                          <div class="option__radio"></div>
+                          <div class="option__title">Нет</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form__buttons">
+                      <input type="reset" value="Очистить">
+                      <input type="submit" value="Отправить">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
     <footer class="footer">

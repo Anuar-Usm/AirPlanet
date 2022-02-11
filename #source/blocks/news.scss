@@ -1,9 +1,4 @@
-.container {
-  margin: 0 auto;
-  width: 1100px;
-  text-align: center;
-  
-}
+
 .news__title {
   font-family: Roboto;
   font-size: 49px;
@@ -18,22 +13,32 @@
   list-style: none;
 }
 
-.news__avatar {
-  width: 160px;
+.avatar{
+  max-width: 160px;
   height: 160px;
-  margin-right: 20px;
-  margin-bottom: 62px;
+  overflow: hidden;
+}
+.avatar__pic {
+  // margin-right: 20px;
+  // margin-bottom: 62px;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 
 .news__item {
-  text-align: left;
+  display: flex;
+}
+
+.news__avatar{
+  width: 25%;
 }
 
 .news__desc{
   display: inline-block;
-  width: 650px;
-  height: 170px;
+  width: 65%;
   text-align: left;
   vertical-align: top;
 }

@@ -1,21 +1,21 @@
 .header__container{
   position: relative;
-  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
 }
 
 .header__logo {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  
 
 }
 
 .contacts {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  color: #fff;
-  text-align: right;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .contacts__phone {

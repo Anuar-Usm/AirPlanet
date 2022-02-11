@@ -8,13 +8,17 @@
 }
 
 .main__content{
-  width: 880px;
-  display: inline-block;
-  vertical-align: top;
+  width: 70%;
+  // display: inline-block;
+  // vertical-align: top;
 }
 
 .sidebar {
-  width: 200px;
-  display: inline-block;
-  vertical-align: top;
+  width: 20%;
+  // display: inline-block;
+  // vertical-align: top;
+}
+
+.page-content__container{
+  display: flex;
 }

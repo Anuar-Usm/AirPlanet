@@ -1,14 +1,17 @@
 @import "./normalize";
-@import "./blocks/header";
 @import "./blocks/layout";
+@import "./blocks/header";
 @import "./blocks/main_content";
+@import "./blocks/form";
 @import "./blocks/sidebar";
 @import "./blocks/fonts";
 @import "./blocks/news";
 @import "./blocks/pagination";
 @import "./blocks/rates";
-@import "./blocks/footer.scss";
 @import "./blocks/breadcrumbs";
-@import "./blocks/crew.scss";
+@import "./blocks/crew";
+@import "./blocks/reviews";
+@import "./blocks/footer";
+@import "./blocks/auth";
 
 
