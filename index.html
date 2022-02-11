@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>Airplanet</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,47 @@
       <div class="page-content">
         <div class="container page-content__container">
           <aside class="sidebar">
-            <nav class="nav">
+            <div class="rates__category">Топ тариф</div>
+            <li class="rates__item">
+              <h3 class="rates__list-title">Стандарт</h3>
+              <p class="rates__list-subtitle">Создан для вашего комфортного отдыха<br>
+              </p>
+              <ul class="rates__list-text">
+                <li class="rates__text">Питание влючено</li>
+                <li class="rates__text">Багаж 5 кг</li>
+                <li class="rates__text">Детское кресло</li>
+              </ul>
+              <h4 class="rates__price">$19</h4>
+            </li>
+            <div class="footer__social">
+              <div class="footer__social-title">Наши социальные сети</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="social__logo">
+                    <img src="./img/icons/vk.png" alt="Логотип социально сети" class="social__pic">
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="social__logo">
+                    <img src="./img/icons/vk.png" alt="Логотип социально сети" class="social__pic">
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="social__logo">
+                    <img src="./img/icons/vk.png" alt="Логотип социально сети" class="social__pic">
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="social__logo">
+                    <img src="./img/icons/vk.png" alt="Логотип социально сети" class="social__pic">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <main class="main__content">
+            <!-- блок тарифы -->
+            <nav class="nav nav--horizontal">
               <ul class="nav__list">
                 <li class="nav__item nav__item--active">
                   <a href="./index.html" class="nav__link nav__link--icon--arrow">Главная</a>
@@ -46,9 +86,6 @@
                 </li>
               </ul>
             </nav>
-          </aside>
-          <main class="main__content">
-            <!-- блок тарифы -->
             <section class="rates">
               <div class="container">
                 <div class="rates__image">
@@ -100,7 +137,7 @@
             <section class="news">
               <div class="container">
                 <h2 class="news__title">Последние новости</h2>
-                <ul class="news__list">
+                <ul class="news__list news--vertical">
                   <li class="news__item">
                     <div class="news__avatar">
                       <div class="avatar">

@@ -12,7 +12,20 @@
 .news__list{
   list-style: none;
 }
+.news--vertical{
+  display: flex;
+}
+.news--vertical .news__item{
+  display: flex;
+  flex-direction: column;
+}
 
+.news--vertical .news__avatar{
+  display: flex;
+  justify-content: center;
+  width: initial;
+
+}
 .avatar{
   max-width: 160px;
   height: 160px;
@@ -21,8 +34,8 @@
 .avatar__pic {
   // margin-right: 20px;
   // margin-bottom: 62px;
-  display: block;
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 100%;
 }
@@ -30,17 +43,19 @@
 
 .news__item {
   display: flex;
+  margin-top: 50px;
 }
 
-.news__avatar{
-  width: 25%;
-}
+// .news__avatar{
+//   width: 25%;
+// }
 
 .news__desc{
   display: inline-block;
   width: 65%;
   text-align: left;
   vertical-align: top;
+  margin-top: 60px;
 }
 
 .news__date{
