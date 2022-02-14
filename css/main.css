@@ -448,13 +448,6 @@ table {
   opacity: 0.7;
 }
 
-.rates__pic {
-  width: 866px;
-  height: 307px;
-  display: block;
-  max-width: 100%;
-}
-
 .main__content {
   width: 70%;
 }
@@ -661,6 +654,10 @@ table {
   font-style: normal;
   font-display: swap;
 }
+.news__container {
+  width: auto;
+}
+
 .news__title {
   font-family: Roboto;
   font-size: 49px;
@@ -822,6 +819,10 @@ table {
   opacity: 1;
 }
 
+.rates__container {
+  width: auto;
+}
+
 .rates__title {
   font-family: Roboto;
   font-size: 49px;
@@ -833,6 +834,22 @@ table {
 
 .rates__list {
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rates__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rates__pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
 }
 
 .rates__item {

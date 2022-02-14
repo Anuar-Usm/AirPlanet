@@ -1,3 +1,7 @@
+.rates__container {
+  width: auto;
+}
+
 .rates__title{
   font-family: Roboto;
   font-size: 49px;
@@ -9,6 +13,19 @@
 
 .rates__list{
   text-align: left;
+  display: flex;
+}
+
+.rates__image{
+  display: flex;
+}
+.rates__pic {
+  // width: 866px;
+  // height: 307px;
+  display: flex;
+  max-width: 100%;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .rates__item {
