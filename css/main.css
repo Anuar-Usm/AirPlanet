@@ -659,7 +659,7 @@ table {
 }
 
 .nav__link--icon--arrow:before {
-  background-image: url("/img/icons/arrow.png");
+  background-image: url("../img/icons/arrow.png");
 }
 
 .nav__link--icon--star:before {
@@ -945,6 +945,10 @@ table {
   font-weight: 300;
   color: #262424;
   margin-left: 14px;
+}
+
+.breadcrumbs {
+  margin-bottom: 13px;
 }
 
 .breadcrumbs__item, .bredcrumbs__link, .breadcrumbs__separator {
